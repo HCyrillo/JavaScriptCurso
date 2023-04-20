@@ -1,6 +1,7 @@
 const numeros = [43, 50, 65, 12]
 
-const soma = numeros.reduce((acumulador, atual) => atual + acumulador, 0)
+const soma = numeros.reduce((acumulador, atual) => atual + acumulador)
+
 
 console.log(soma) //170 
 
